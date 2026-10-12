@@ -1,0 +1,58 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+.profile {
+    padding: 30px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+}
+
+section {
+    background-color: #1a1a1a;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+footer {
+    background-color: #222;
+    padding: 15px;
+}
